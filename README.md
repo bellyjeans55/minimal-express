@@ -1,0 +1,1 @@
+Minimal template for starting an express project using latest ECMAScript.

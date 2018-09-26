@@ -1,0 +1,28 @@
+{
+  "name": "minimal-express",
+  "version": "1.0.0",
+  "description": "Personal template for starting an express project",
+  "main": "src/backend/server.js",
+  "scripts": {
+    "test": "test",
+    "devserver": "nodemon --exec babel-node src/backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellyjeans55/minimal-express.git"
+  },
+  "author": "Jonathan Kay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bellyjeans55/minimal-express/issues"
+  },
+  "homepage": "https://github.com/bellyjeans55/minimal-express#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.4"
+  }
+}
